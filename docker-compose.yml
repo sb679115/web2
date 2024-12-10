@@ -5,7 +5,7 @@ services:
     build:
       context: .
     ports:
-      - "5000:5000"
+      - "6000:6000"
     container_name: advanced-sql-injection
     restart: unless-stopped
 
